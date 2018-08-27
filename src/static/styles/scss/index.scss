@@ -1,0 +1,19 @@
+// lib
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.min.css';
+@import "~react-table/react-table.css";
+
+// components
+@import "./components/app-navbar";
+@import "./components/sentiment-status";
+@import "./components/custom-react-table";
+@import "./components/dashboard";
+@import "./components/round-border-button";
+@import "./components/custom-dropdown";
+@import "./components/form-insert-content";
+@import "./components/brand";
+
+// pages
+@import "./pages/home";
+
+@import "app";

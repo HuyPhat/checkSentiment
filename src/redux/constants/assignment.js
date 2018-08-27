@@ -1,0 +1,4 @@
+export const REQUEST_ASSIGN = 'REQUEST_ASSIGN';
+export const DO_ASSIGN = 'DO_ASSIGN';
+export const ASSIGN_SUCCESSED = 'ASSIGN_SUCCESSED';
+export const ASSIGN_FAILED = 'ASSIGN_FAILED';

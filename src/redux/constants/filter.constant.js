@@ -1,0 +1,3 @@
+export default {
+    CHANGE_SENTIMENT_STATUS: 'CHANGE_SENTIMENT_STATUS',
+}

@@ -1,0 +1,23 @@
+.custom-react-table {
+    .pagination-bottom {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        .-pagination {
+            background-color: #fff8dc;
+        }
+        .-center {
+            background-color: #fff;
+        }
+        .-previous,.-next {
+            background-color: #faebd7;
+            .-btn {
+                color: #222;
+            }
+        }
+    }
+    .rt-table {
+        padding-bottom: 60px;
+    }
+}

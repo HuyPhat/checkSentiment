@@ -1,0 +1,3 @@
+export const SET_SELECT_TYPE_HOME_PAGE = 'SET_SELECT_TYPE_HOME_PAGE';
+
+export const GET_ALL_USERS = 'GET_ALL_USERS';

@@ -1,0 +1,31 @@
+.sentiment-status {
+    .text {
+        color: #fff;
+        text-align: center;
+    }
+    .sentiment-text-container {
+        padding: 0.2rem 0;
+        border-radius: 2rem;
+        cursor: not-allowed;
+    }
+    &-unknown {
+        background-color: #ccc;
+        border-color: #ccc;
+        .text {
+            color: #000;
+            text-align: center;
+        }
+    }
+    &-positive {
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+    }
+    &-negative {
+        background-color: #d9534f;
+        border-color: #d43f3a;
+    }
+    &-neutral {
+        background-color: #f0ad4e;
+        border-color: #eea236;
+    }
+}

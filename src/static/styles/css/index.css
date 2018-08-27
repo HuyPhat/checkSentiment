@@ -1,0 +1,91 @@
+@import url(~bootstrap/dist/css/bootstrap.min.css);
+@import url(~font-awesome/css/font-awesome.min.css);
+@import url(~react-table/react-table.css);
+.bs-docs-nav {
+  background-color: #3B3F51; }
+  .bs-docs-nav .navbar-brand {
+    color: #00d8ff; }
+    .bs-docs-nav .navbar-brand:hover {
+      color: #00d8ff; }
+  .bs-docs-nav .navbar-collapse > ul li.nav-item > a {
+    color: #d8d8d8;
+    background-color: transparent; }
+    .bs-docs-nav .navbar-collapse > ul li.nav-item > a:hover {
+      color: #d8d8d8;
+      background-color: transparent;
+      text-decoration: underline; }
+
+.sentiment-status .text {
+  color: #fff;
+  text-align: center; }
+.sentiment-status .sentiment-text-container {
+  padding: 0.2rem 0;
+  border-radius: 2rem;
+  cursor: not-allowed; }
+.sentiment-status-unknown {
+  background-color: #ccc;
+  border-color: #ccc; }
+  .sentiment-status-unknown .text {
+    color: #000;
+    text-align: center; }
+.sentiment-status-positive {
+  background-color: #5cb85c;
+  border-color: #4cae4c; }
+.sentiment-status-negative {
+  background-color: #d9534f;
+  border-color: #d43f3a; }
+.sentiment-status-neutral {
+  background-color: #f0ad4e;
+  border-color: #eea236; }
+
+.custom-react-table .pagination-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+  .custom-react-table .pagination-bottom .-pagination {
+    background-color: #fff8dc; }
+  .custom-react-table .pagination-bottom .-center {
+    background-color: #fff; }
+  .custom-react-table .pagination-bottom .-previous, .custom-react-table .pagination-bottom .-next {
+    background-color: #faebd7; }
+    .custom-react-table .pagination-bottom .-previous .-btn, .custom-react-table .pagination-bottom .-next .-btn {
+      color: #222; }
+.custom-react-table .rt-table {
+  padding-bottom: 60px; }
+
+.dashboardContent {
+  padding-top: 50px; }
+
+.round-border-button {
+  border-radius: 2rem; }
+
+.primary-button {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff; }
+
+.custom-dropdown {
+  padding-right: 7px; }
+
+.form-insert-content .jumbotron {
+  background-color: #696969;
+  color: white; }
+
+.logo-container {
+  display: flex;
+  justify-content: center; }
+  .logo-container > img {
+    width: 50px;
+    height: 50px; }
+
+#home-page .btn-group.btn-group-content-type {
+  width: 66%; }
+
+body {
+  background-color: #e9ecf3; }
+
+.welcome {
+  text-align: center; }
+
+/*# sourceMappingURL=index.css.map */
